@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var popOptions = ["A", "B", "C"]
 
+
+    
+    @IBOutlet weak var popSelector: KFPopupSelector!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        popSelector.options = popOptions.map{KFPopupSelector.Option.Text(text: $0)}
+        popSelector.selectedIndex = 0
+        popSelector.labelDecoration = .DownwardTriangle
     }
 
     override func didReceiveMemoryWarning() {

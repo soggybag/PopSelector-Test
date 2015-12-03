@@ -12,6 +12,7 @@
 		7BED663F1C03852700D2FB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BED663D1C03852700D2FB4E /* Main.storyboard */; };
 		7BED66411C03852700D2FB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BED66401C03852700D2FB4E /* Assets.xcassets */; };
 		7BED66441C03852700D2FB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BED66421C03852700D2FB4E /* LaunchScreen.storyboard */; };
+		7BED664C1C038A2D00D2FB4E /* KFPopupSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED664B1C038A2D00D2FB4E /* KFPopupSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7BED66401C03852700D2FB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BED66431C03852700D2FB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BED66451C03852700D2FB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BED664B1C038A2D00D2FB4E /* KFPopupSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KFPopupSelector.swift; path = ../KFPopupSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7BED66381C03852700D2FB4E /* PopSelector-Test */ = {
 			isa = PBXGroup;
 			children = (
+				7BED664B1C038A2D00D2FB4E /* KFPopupSelector.swift */,
 				7BED66391C03852700D2FB4E /* AppDelegate.swift */,
 				7BED663B1C03852700D2FB4E /* ViewController.swift */,
 				7BED663D1C03852700D2FB4E /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				7BED663C1C03852700D2FB4E /* ViewController.swift in Sources */,
 				7BED663A1C03852700D2FB4E /* AppDelegate.swift in Sources */,
+				7BED664C1C038A2D00D2FB4E /* KFPopupSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
